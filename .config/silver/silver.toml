@@ -1,0 +1,35 @@
+[[left]]
+name = "user"
+color.background = "blue"
+color.foreground = "black"
+
+[[left]]
+name = "dir"
+color.background = "14"
+color.foreground = "black"
+
+[[left]]
+name = "git"
+color.background = "16"
+color.foreground = "white"
+args = ["black"]
+
+[[left]]
+name = "virtualenv"
+color.background = "12"
+color.foreground = "yellow"
+
+[[right]]
+name = "status"
+color.background = "white"
+color.foreground = "black"
+
+[[right]]
+name = "cmdtime"
+color.background = "magenta"
+color.foreground = "black"
+
+[[right]]
+name = "shell"
+color.background = "green"
+color.foreground = "black"
