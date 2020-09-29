@@ -1,4 +1,4 @@
 # Defined in - @ line 1
-function al --wraps='sl -a' --description 'alias al sl -a'
-  sl -a $argv;
+function al --wraps='sl -laF' --description 'alias al sl -laF'
+  sl -laF $argv;
 end

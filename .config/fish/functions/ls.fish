@@ -1,4 +1,4 @@
 # Defined in - @ line 1
-function ls --wraps='exa --icons --git -hgb' --description 'alias ls exa --icons --git -hgb'
-  exa --icons --git -hgb $argv;
+function ls --wraps='exa --git --icons -hgb' --description 'alias ls exa --git --icons -hgb'
+  exa --git --icons -hgb $argv;
 end

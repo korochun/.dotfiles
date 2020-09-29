@@ -1,13 +1,14 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export MOZ_ENABLE_WAYLAND:1
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_amend:git\x20commit\x20\x2d\x2damend
 SETUVAR _fish_abbr_cat:bat
 SETUVAR _fish_abbr_commit:git\x20add\x20\x2e\x20\x26\x26\x20git\x20commit\x20\x2dm
 SETUVAR _fish_abbr_grep:rg
 SETUVAR _fish_abbr_hexdump:hexyl
 SETUVAR _fish_abbr_nv:nvim
-SETUVAR _fish_abbr_pip:pip3
-SETUVAR _fish_abbr_py:python3
+SETUVAR _fish_abbr_py:python
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -37,5 +38,4 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/Users/korochun/\x2ecargo/bin
-SETUVAR pisces_pairs:\x28\x2c\x29\x1e\x5b\x2c\x5d\x1e\x7b\x2c\x7d\x1e\x22\x2c\x22\x1e\x27\x2c\x27
+SETUVAR fish_user_paths:/home/korochun/\x2ecargo/bin\x1e/home/korochun/\x2elocal/bin
